@@ -1,0 +1,30 @@
+{
+  "triky": [
+    {
+      "id": 1,
+      "povel": "sedni",
+      "popis": "pes si sedne ze stoje nebo lehu bez fixace nohou",
+      "complete": false
+    },
+    {
+      "id": 2,
+      "povel": "sit",
+      "popis": "pes si sedne ze stoje s fixací předních nohou",
+      "complete": false
+    }
+  ],
+  "tricks": [
+    {
+      "id": 1,
+      "povel": "sedni",
+      "popis": "pes si sedne ze stoje nebo lehu bez fixace nohou",
+      "complete": true
+    },
+    {
+      "id": 2,
+      "povel": "sit",
+      "popis": "pes si sedne ze stoje s fixací předních nohou",
+      "complete": false
+    }
+  ]
+}
