@@ -3,7 +3,10 @@
         <div class="actions">
             <h3 @click="showPopis=!showPopis">{{ trik.povel }}</h3>
             <div class="icons">
-                <q-icon class="ikony" name="edit" size="2em" />
+                <!--id přidávám do router linku jako parametr, protože je i v adrese (a má tam stejný název)-->
+                <router-link :to="{ name: 'EditTrik', params: { id: trik.id } }">
+                    <q-icon class="ikony" name="edit" size="2em" />
+                </router-link>
                 <q-icon @click="deleteTrik" class="ikony" name="delete_forever" size="2em" />
                 <q-icon @click="toggleComplete" class="ikony tick" name="check" size="2em" />
 
@@ -42,7 +45,6 @@ export default {
             })
                 .then (() => emit.emit('complete', props.trik.id))
                 .catch (err => console.log(err))
-
         }
 
 

@@ -10,21 +10,25 @@
       "id": 2,
       "povel": "sit",
       "popis": "pes si sedne ze stoje s fixací předních nohou",
-      "complete": false
-    }
-  ],
-  "tricks": [
-    {
-      "id": 1,
-      "povel": "sedni",
-      "popis": "pes si sedne ze stoje nebo lehu bez fixace nohou",
       "complete": true
     },
     {
-      "id": 2,
-      "povel": "sit",
-      "popis": "pes si sedne ze stoje s fixací předních nohou",
-      "complete": false
+      "povel": "lehni",
+      "popis": "Pes si lehne ze stoje s fixací všech 4 tlapek",
+      "complete": false,
+      "id": 3
+    },
+    {
+      "povel": "pac",
+      "popis": "pes podává svou levou přední nohu nezávisle na své poloze (v sedu, stoji i lehu)",
+      "complete": false,
+      "id": 4
+    },
+    {
+      "povel": "druhá",
+      "popis": "pes podává svou pravou přední nohu nezávisle na své pozici - ve stoje, sedě i v leže",
+      "complete": false,
+      "id": 5
     }
   ]
 }
